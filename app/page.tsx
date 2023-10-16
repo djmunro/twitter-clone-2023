@@ -5,7 +5,7 @@ import { formatDistance } from "date-fns";
 
 type ExtendedPostType = PostType & {
   author: {
-    name: string;
+    name: string | null;
   };
 };
 
